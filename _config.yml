@@ -31,8 +31,8 @@ github_username:  bbgatch
 github: [metadata]
 
 # Build settings
-theme: minima
-# theme: jekyll-athena
+# theme: minima
+theme: jekyll-athena
 plugins:
   - jekyll-feed
 
