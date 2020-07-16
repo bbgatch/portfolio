@@ -1,5 +1,4 @@
-/** Reset some basic elements
-*/
+/** Reset some basic elements */
 * { box-sizing: border-box !important; margin: 0; }
 
 input, select, textarea, button { font-family: inherit; font-size: inherit; line-height: inherit; }
@@ -34,25 +33,40 @@ pre { border-left: 8px solid #D7D5D1; margin: 32px 0; padding-left: 16px; width:
 code { color: #423F38; font-size: 16px; padding: 1px 4px; }
 
 .prose p, .prose ol, .prose ul { font-size: 24px; margin-bottom: 1em; width: 100%; }
+
 .prose ul, .prose ol { padding-left: 40px; }
+
 .prose li { margin-bottom: 0.5em; }
+
 .prose li ul li, .prose li ol li { margin-bottom: 0; }
+
 .prose img { max-width: 100%; }
+
 .prose blockquote { line-height: 1.375; padding-left: 20px; margin: 40px 0 40px -16px; border-left: 8px solid #D7D5D1; font-style: italic; }
+
 .prose blockquote p { font-size: 24px; }
-@media (min-width: 52em) { .prose blockquote { padding-left: 32px; margin: 64px 0 64px -40px; max-width: 110%; }
-  .prose blockquote p { font-size: 32px; } }
+
+@media (min-width: 52em) { .prose blockquote { padding-left: 32px; margin: 64px 0 64px -40px; max-width: 110%; } .prose blockquote p { font-size: 32px; } }
+
 .prose hr { color: #2B2826; border-style: solid; border-width: thin; margin-top: 0.5em; margin-bottom: 0.5em; }
+
 .prose dt { font-weight: bold; font-style: italic; line-height: 1.25; }
+
 .prose dd { font-style: italic; margin-bottom: 0.5em; }
+
 .prose table { border-collapse: collapse; display: block; width: 100%; margin-bottom: 1.5em; overflow: auto; word-break: normal; word-break: keep-all; }
+
 .prose table th { font-weight: bold; text-align: left; }
+
 .prose table th, .prose table td { padding: 16px 32px 16px 2px; border-top: 1px solid #2B2826; border-bottom: 1px solid #2B2826; }
+
 .prose table tr { border-top: 1px solid #2B2826; }
+
 .prose table tr th { border-top: 2px solid #2B2826; border-bottom: 2px solid #2B2826; }
 
 /* Type utilities */
 .h0 { font-size: 48px; line-height: 1.0125; margin-top: 0.85em; word-wrap: break-word; }
+
 @media (min-width: 52em) { .h0 { font-size: 96px; } }
 
 .text-right { text-align: right; }
@@ -62,6 +76,7 @@ code { color: #423F38; font-size: 16px; padding: 1px 4px; }
 .no-underline-hover:hover { text-decoration: none !important; border-bottom: none !important; }
 
 .link-primary { font-weight: bold; text-decoration: none; border-bottom: 2px solid currentColor; padding-bottom: 1px; }
+
 .link-primary:hover { color: #2B2826; text-decoration: none; border-bottom: 2px dotted; }
 
 .bold { font-weight: bold; }
@@ -128,6 +143,7 @@ code { color: #423F38; font-size: 16px; padding: 1px 4px; }
 .col-12 { width: 100%; }
 
 @media (max-width: 52em) { .sm-width-full { width: 100% !important; } }
+
 .block { display: block !important; }
 
 .inline-block { display: inline-block !important; }
@@ -148,12 +164,10 @@ code { color: #423F38; font-size: 16px; padding: 1px 4px; }
 
 .right { float: right; }
 
-@media (min-width: 52em) { .right-lg { float: right !important; }
-  .left-lg { float: left !important; }
-  .absolute-lg { position: absolute; }
-  .block-lg { display: block !important; }
-  .inline-block-lg { display: inline-block; } }
+@media (min-width: 52em) { .right-lg { float: right !important; } .left-lg { float: left !important; } .absolute-lg { position: absolute; } .block-lg { display: block !important; } .inline-block-lg { display: inline-block; } }
+
 @media (max-width: 52em) { .hide-sm { display: none !important; } }
+
 .clearfix:before, .clearfix:after { content: " "; display: table; }
 
 .clearfix:after { clear: both; }
@@ -224,24 +238,6 @@ code { color: #423F38; font-size: 16px; padding: 1px 4px; }
 
 .ml-4 { margin-left: 64px; }
 
-@media (min-width: 52em) { .mx-lg-auto { margin-left: auto; margin-right: auto; }
-  .mt-lg-0 { margin-top: 0; }
-  .mr-lg-0 { margin-right: 0; }
-  .mb-lg-0 { margin-bottom: 0; }
-  .ml-lg-0 { margin-left: 0; }
-  .mt-lg-1 { margin-top: 8px; }
-  .mr-lg-1 { margin-right: 8px; }
-  .mb-lg-1 { margin-bottom: 8px; }
-  .ml-lg-1 { margin-left: 8px; }
-  .mt-lg-2 { margin-top: 16px; }
-  .mr-lg-2 { margin-right: 16px; }
-  .mb-lg-2 { margin-bottom: 16px; }
-  .ml-lg-2 { margin-left: 16px; }
-  .mt-lg-3 { margin-top: 32px; }
-  .mr-lg-3 { margin-right: 32px; }
-  .mb-lg-3 { margin-bottom: 32px; }
-  .ml-lg-3 { margin-left: 32px; }
-  .mt-lg-4 { margin-top: 64px; }
-  .mr-lg-4 { margin-right: 64px; }
-  .mb-lg-4 { margin-bottom: 64px; }
-  .ml-lg-4 { margin-left: 64px; } }
+@media (min-width: 52em) { .mx-lg-auto { margin-left: auto; margin-right: auto; } .mt-lg-0 { margin-top: 0; } .mr-lg-0 { margin-right: 0; } .mb-lg-0 { margin-bottom: 0; } .ml-lg-0 { margin-left: 0; } .mt-lg-1 { margin-top: 8px; } .mr-lg-1 { margin-right: 8px; } .mb-lg-1 { margin-bottom: 8px; } .ml-lg-1 { margin-left: 8px; } .mt-lg-2 { margin-top: 16px; } .mr-lg-2 { margin-right: 16px; } .mb-lg-2 { margin-bottom: 16px; } .ml-lg-2 { margin-left: 16px; } .mt-lg-3 { margin-top: 32px; } .mr-lg-3 { margin-right: 32px; } .mb-lg-3 { margin-bottom: 32px; } .ml-lg-3 { margin-left: 32px; } .mt-lg-4 { margin-top: 64px; } .mr-lg-4 { margin-right: 64px; } .mb-lg-4 { margin-bottom: 64px; } .ml-lg-4 { margin-left: 64px; } }
+
+/*# sourceMappingURL=style.css.map */

@@ -24,11 +24,11 @@ description: >-
   Hello and welcome to my data science portfolio! This site was created
   with Jekyll and GitHub Pages.
 # baseurl: "" # the subpath of your site, e.g. /blog
-url: "bengatchell.com" # the base hostname & protocol for your site, e.g. http://example.com
+# url: "bengatchell.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: bbgatch
 github_username:  bbgatch
 
-github: [metadata]
+# github: [metadata]
 
 # Build settings
 # theme: minima
