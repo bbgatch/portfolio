@@ -6,3 +6,5 @@ layout: home
 ---
 
 Test home page!
+
+{% include ads.html %}
