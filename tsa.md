@@ -6,8 +6,6 @@ permalink: /tsa/
 
 The TSA has been releasing daily counts of travelers moving through their checkpoints. They began releasing the data as part of the coronavirus pandemic to help monitor the downturn in air travel.
 
-The number of travelers has gradually picked up over the past couple months but it has stalled recently, likely due to recent increases in COVID-19 cases.
-
 Source: [TSA Traveler Data](https://www.tsa.gov/coronavirus/passenger-throughput)
 
 <br>

@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Ben Gatchell
+title: bbgatch
 # email: your-email@example.com
 description: >-
-  Analytics portfolio.
+  Analytics Portfolio
   
 # baseurl: "" # the subpath of your site, e.g. /blog
 # url: "bengatchell.com" # the base hostname & protocol for your site, e.g. http://example.com
@@ -37,7 +37,7 @@ theme: minima
 plugins:
   - jekyll-feed
 
-google_analytics: UA-173201269-1
+# google_analytics: UA-173201269-1
 
 # Exclude from processing.
 # The following items will not be processed, by default.

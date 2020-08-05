@@ -5,4 +5,4 @@
 layout: home
 ---
 
-Welcome to my data science portfolio! I'll be posting projects that I've been working on and helpful tips that I've come across.
+Welcome to my data science portfolio!
