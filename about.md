@@ -13,6 +13,3 @@ Thank you for visiting my blog! This site was created with Jekyll and AWS. I'm a
 Follow me on Twitter here: [bbgatch](https://twitter.com/bbgatch)
 
 Follow me on GitHub here: [bbgatch](https://github.com/bbgatch)
-
-
-{% include ads.html %}
