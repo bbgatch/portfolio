@@ -5,9 +5,9 @@ date: 2020-07-13
 category: makeover-monday
 ---
 
-# 2020-07-13 #MakeoverMonday
+For my very first #MakeoverMonday, I'm looking at how egg laying differs across the three different species of palmer penguins. <!--more-->
 
-For my very first #MakeoverMonday I'm keeping it simple and looking at how egg laying differs across the three different species of penguins.
+## 2020-07-13 #MakeoverMonday
 
 Adelie penguins lay their eggs around mid-November, Chinstraps in the latter-half of November, and Gentoos throughout November but somewhat bimodal at the beginning and end of the month. It's easiest to see the distribution of Gentoo egg laying by filtering out the other two species in the dashboard below.
 

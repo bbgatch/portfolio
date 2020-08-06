@@ -1,0 +1,21 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/** Posts */
+.post-list-heading { font-size: 350%;
+                     font-weight: bold;
+                   }
+
+.post-link { font-size: 175%;
+             font-weight: bold;
+             color: darkslategrey; }
+            
+.post-link:visited {color: darkslategrey;}
+
+.post-meta { font-size: 100%; 
+             color: grey; 
+             font-style: italic;}
+
+
