@@ -4,21 +4,28 @@
 @import "{{ site.theme }}";
 
 /** Posts */
+
 .post-list-heading { font-size: 250%;
-                     font-weight: bold;
-                     text-decoration: underline;
-                   }
+  font-weight: bold;
+  text-decoration: underline;
+}
 
 .post-link { font-size: 175%;
-             font-weight: bold;
-             color: darkslategrey; 
-            }
+  font-weight: bold;
+  color: darkslategrey; 
+}
             
 .post-link:visited {color: darkslategrey;}
 
 .post-meta { font-size: 100%; 
-             color: grey; 
-             font-style: italic;}
+  color: grey; 
+  font-style: italic;}
+  
+.site-title, .site-title:visited { font-size: 200%;
+              font-weight: bold;
+              color: mintcream;
+              background-color: darkslategrey;
+            }
 
 // code { background-color: mintcream; }
 

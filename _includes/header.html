@@ -6,12 +6,12 @@
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     
     <!-- Regular Header -->
-    <!-- <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a> -->
+    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
     
     <!-- Image Header -->
-    <a href="{{ "/" | relative_url }}">
+    <!-- <a href="{{ "/" | relative_url }}">
     <img src="\assets\images\logo.svg" alt="logo" width=20% height=20%>
-    </a>
+    </a> -->
 
     {%- if page_paths -%}
       <nav class="site-nav">
