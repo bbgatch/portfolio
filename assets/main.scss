@@ -4,13 +4,15 @@
 @import "{{ site.theme }}";
 
 /** Posts */
-.post-list-heading { font-size: 350%;
+.post-list-heading { font-size: 250%;
                      font-weight: bold;
+                     text-decoration: underline;
                    }
 
 .post-link { font-size: 175%;
              font-weight: bold;
-             color: darkslategrey; }
+             color: darkslategrey; 
+            }
             
 .post-link:visited {color: darkslategrey;}
 
