@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How do European countries produce their energy?"
-date: 2020-08-03
+date: 2020-08-04
 category: tidy-tuesday
 ---
 
@@ -149,7 +149,7 @@ energy_types %>%
   scale_y_continuous(labels = scales::percent)
 ```
 
-![Bar chart showing percent of energy production by type for European countries.](/assets/images/tidy-tuesday/2020-08-08_nuclear-energy.png)
+![Bar chart showing percent of energy production by type for European countries.](/assets/images/tidy-tuesday/2020-08-04_nuclear-energy.png)
 
 The salmon colored sections of the bars are our nuclear energy percentages. They're showing up top left in descending order because we specified that `nuclear` should be first in the energy type factor order and because we specified the country sort order based on the percentage use of nuclear energy.
 
