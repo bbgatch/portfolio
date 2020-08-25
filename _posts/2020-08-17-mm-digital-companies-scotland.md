@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Where are digital companies based on Scotland?
+title: Where are digital companies based in Scotland?
 date: 2020-08-17
 category: makeover-monday
 ---
