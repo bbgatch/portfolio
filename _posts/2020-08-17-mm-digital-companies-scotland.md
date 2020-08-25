@@ -33,6 +33,26 @@ I had to manually select Matching Locations for the unknown regions - this was a
 
 ![Matching Unknown Locations](\assets\images\makeover-monday\2020-08-17_edit-locations.png)
 
+### Wrapping Labels
+Some of the `Region` names are very long and make it difficult to fit the mark labels together on the map. Sadly, turning on "Wrap" in the Label Alignment does nothing.
+
+I forced the labels with two names to wrap using the calculated field below. Big thanks to @dataunjaded's [blog](https://alanajade3.wixsite.com/dataunjaded/post/need-to-wrap-text-labels-in-tableau-just-press-enter) for the help on this wrapping calculated field.
+
+```
+// Only operates on labels with "&".
+if contains([Region], "&") then
+
+// Split on "& " and add in a new line between the two names.
+split([Region], "& ", 1)
++ "&" +
+'
+'
++ split([Region], "& ", 2)
+
+else Region
+end
+```
+
 ### Final Viz:
 <div class='tableauPlaceholder' id='viz1598389189147' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;sc&#47;scotland-digital-companies&#47;DigitalCompaniesinScotland&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='scotland-digital-companies&#47;DigitalCompaniesinScotland' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;sc&#47;scotland-digital-companies&#47;DigitalCompaniesinScotland&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /></object></div> <script type='text/javascript'> var divElement = document.getElementById('viz1598389189147'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width='600px';vizElement.style.height='1027px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement); </script>
 
