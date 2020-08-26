@@ -9,6 +9,19 @@ layout: default
 
   {{ content }}
 
+  <h2 class="post-list-heading"> Projects</h2>
+  <ul class="post-list">
+    <li>
+      <h3>
+        <a class="post-link" href="/tsa/index.html">
+          TSA Traveler Trends During Coronavirus
+        </a>
+      </h3>
+      The TSA began sharing checkpoint traveler data in March due to the coronavirus downturn. I've been pulling the data with a Python script and tracking it in a Tableau dashboard.
+    </li>
+  </ul>
+
+
   {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
     <ul class="post-list">
