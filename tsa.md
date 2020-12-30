@@ -4,7 +4,7 @@ title: TSA Travelers
 permalink: /tsa/
 ---
 
-The TSA has been releasing daily counts of travelers moving through their checkpoints in order to track the progress of recovery during the pandemic. I've set up a [Python script](https://github.com/bbgatch/tsa/blob/master/tsa_data.py) to pull this data and I'm tracking it in the [Tableau dashboard](https://public.tableau.com/profile/bbgatch#!/vizhome/tsa_15931851223980/TSATravelers) below.
+The TSA has been releasing daily counts of travelers moving through their checkpoints in order to track the progress of recovery during the pandemic. I've set up a [Python script](https://github.com/bbgatch/tsa/blob/master/pull_tsa_data.py) to pull this data and I'm tracking it in the [Tableau dashboard](https://public.tableau.com/profile/bbgatch#!/vizhome/tsa_15931851223980/TSATravelers) below.
 
 Source: [TSA Traveler Data](https://www.tsa.gov/coronavirus/passenger-throughput)
 
